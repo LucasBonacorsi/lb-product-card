@@ -13,7 +13,7 @@ describe('ProductCard', () => {
     expect(wrapper.toJSON()).toMatchSnapshot();
   });
 
-  test('Debe mostrar el componente correctament con el titulo ', () => {
+  test('Debe incrementar el contador', () => {
     const wrapper = renderer.create(
       <ProductCard product={product1}>
         {({ count, increaseBy }) => (

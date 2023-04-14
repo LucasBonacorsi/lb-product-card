@@ -1,16 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ProductCard Debe mostrar el componente correctament con el titulo  1`] = `
-<div
-  className="productCard undefined"
->
-  <h1>
-    Product card
-  </h1>
-</div>
-`;
-
-exports[`ProductCard Debe mostrar el componente correctament con el titulo  2`] = `
+exports[`ProductCard Debe incrementar el contador 1`] = `
 <div
   className="productCard undefined"
 >
@@ -23,5 +13,15 @@ exports[`ProductCard Debe mostrar el componente correctament con el titulo  2`] 
   <button
     onClick={[Function]}
   />
+</div>
+`;
+
+exports[`ProductCard Debe mostrar el componente correctament con el titulo  1`] = `
+<div
+  className="productCard undefined"
+>
+  <h1>
+    Product card
+  </h1>
 </div>
 `;
